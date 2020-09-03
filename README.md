@@ -28,3 +28,9 @@ NOTE: need running server
 http_server_client/client$ yarn install
 http_server_client/client$ yarn start
 ```
+
+## Express
+Make initial server using express
+
+## References
+1. https://velopert.com/node-js-tutorials
