@@ -32,5 +32,26 @@ http_server_client/client$ yarn start
 ## Express
 Make initial server using express
 
+```
+node_tutorial/express/
+|--node_modules
+|--package.json
+|--public
+|  `--css
+|     `--style.css
+|--router
+|  `--main.js
+|--server.js
+|--views
+|  |--about.html
+|  `--index.html
+`--yarn.lock
+```
+
+```
+express$ yarn install
+express$ yarn start
+```
+
 ## References
 1. https://velopert.com/node-js-tutorials
