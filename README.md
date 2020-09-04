@@ -32,6 +32,7 @@ http_server_client/client$ yarn start
 ## Express
 Make initial server using express
 Make a server using ejs
+Make RESTful API
 
 ```
 node_tutorial/express/
@@ -51,6 +52,7 @@ node_tutorial/express/
 ```
 express$ yarn install
 express$ yarn start
+express$ yarn test
 ```
 
 ## References

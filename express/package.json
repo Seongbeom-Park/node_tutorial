@@ -10,6 +10,7 @@
     "express-session": "~1.13.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "./rest_call.sh"
   }
 }
