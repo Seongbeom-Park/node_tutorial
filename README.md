@@ -31,10 +31,10 @@ http_server_client/client$ yarn start
 
 ## Express
 Make initial server using express
+Make a server using ejs
 
 ```
 node_tutorial/express/
-|--node_modules
 |--package.json
 |--public
 |  `--css
@@ -42,10 +42,10 @@ node_tutorial/express/
 |--router
 |  `--main.js
 |--server.js
-|--views
-|  |--about.html
-|  `--index.html
-`--yarn.lock
+`--views
+   |--body.ejs
+   |--header.ejs
+   `--index.ejs
 ```
 
 ```
