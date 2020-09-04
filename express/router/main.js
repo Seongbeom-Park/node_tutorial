@@ -5,8 +5,4 @@ module.exports = function(app, fs) {
 			length: 5
 		});
 	});
-
-	app.get('/about', function(req, res) {
-		res.render('about.html');
-	});
 }
