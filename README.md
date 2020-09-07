@@ -2,4 +2,7 @@
 Study node.js
 
 ## REST API Tutorial
-Study express library
+Study Express library
+
+## RabbitMQ Tutorial
+Study RabbitMQ library
