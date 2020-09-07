@@ -20,9 +20,21 @@ Study RabbitMQ
 ```
 
 ## hello_world
-Make a messege queue using rabbitmq to send hello world
+Make a message queue using rabbitmq to send hello world
 ```
 $ yarn restart
 $ yarn send
 $ yarn recv
+```
+
+## work_queue
+Make a message queue holding durable and persistent messages
+
+A worker prefetchs one task at a time
+
+```
+$ yarn restart
+$ yarn recv
+$ yarn recv
+$ sh send.sh
 ```

@@ -1,0 +1,15 @@
+{
+  "name": "work_queue",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": ""
+  },
+  "scripts": {
+    "start": "sudo service rabbitmq-server start",
+    "restart": "sudo service rabbitmq-server restart",
+    "stop": "sudo service rabbitmq-server stop",
+    "send": "node new_task.js",
+    "recv": "node worker.js"
+  }
+}
