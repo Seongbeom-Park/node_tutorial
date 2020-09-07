@@ -38,3 +38,13 @@ $ yarn recv
 $ yarn recv
 $ sh send.sh
 ```
+
+## publish_subscribe
+Make a exchange which broadcast messages to multiple exclusive queues
+
+```
+$ yarn restart
+$ yarn sub
+$ yarn sub
+$ yarn pub
+```

@@ -1,0 +1,15 @@
+{
+  "name": "publich_subscribe",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": ""
+  },
+  "scripts": {
+    "start": "sudo service rabbitmq-server start",
+    "restart": "sudo service rabbitmq-server restart",
+    "stop": "sudo service rabbitmq-server stop",
+    "pub": "node emit_logs.js",
+    "sub": "node receive_logs.js | tee logs_from_rabbit.log"
+  }
+}
