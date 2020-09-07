@@ -1,5 +1,5 @@
 # [RabbitMQ](https://www.rabbitmq.com/) Tutorial
-[Study RabbitMQ](https://www.rabbitmq.com/getstarted.html)
+[Study RabbitMQ library](https://www.rabbitmq.com/getstarted.html)
 
 ## Prerequisites
 ### [Install RabbitMQ server](https://www.rabbitmq.com/download.html)
