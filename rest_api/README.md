@@ -1,5 +1,5 @@
 # REST API Tutorial
-Study express library
+Study Express library
 
 ## http_helloworld
 Make a server which can print a message "Hello, World!"
