@@ -1,0 +1,16 @@
+{
+  "name": "hello_world",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": ""
+  },
+  "scripts": {
+    "start": "sudo service rabbitmq-server start",
+    "restart": "sudo service rabbitmq-server restart",
+    "stop": "sudo service rabbitmq-server stop",
+    "send": "node producer.js",
+    "recv": "node consumer.js"
+  }
+}
