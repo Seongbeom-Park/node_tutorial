@@ -48,3 +48,15 @@ $ yarn sub
 $ yarn sub
 $ yarn pub
 ```
+
+## routing
+Make a exchange with direct exchange type
+
+```
+$ yarn restart
+$ yarn subiwe
+$ yarn subi
+$ yarn subw
+$ yarn sube
+$ sh send.sh
+```

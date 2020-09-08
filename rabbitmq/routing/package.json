@@ -1,0 +1,21 @@
+{
+  "name": "routing",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": ""
+  },
+  "scripts": {
+    "start": "sudo service rabbitmq-server start",
+    "restart": "sudo service rabbitmq-server restart",
+    "stop": "sudo service rabbitmq-server stop",
+    "pub": "node emit_logs_direct.js",
+    "subi": "node receive_logs_direct.js info",
+    "subw": "node receive_logs_direct.js warning",
+    "sube": "node receive_logs_direct.js error",
+    "subiw": "node receive_logs_direct.js info warning",
+    "subie": "node receive_logs_direct.js info error",
+    "subwe": "node receive_logs_direct.js warning error",
+    "subiwe": "node receive_logs_direct.js info warning error"
+  }
+}
