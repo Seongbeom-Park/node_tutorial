@@ -60,3 +60,15 @@ $ yarn subw
 $ yarn sube
 $ sh send.sh
 ```
+
+## topic
+Make a exchange with topic exchange type
+
+```
+$ yarn restart
+$ yarn suba
+$ yarn subk
+$ yarn subc
+$ yarn subkc
+$ sh send.sh
+```
