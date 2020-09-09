@@ -72,3 +72,12 @@ $ yarn subc
 $ yarn subkc
 $ sh send.sh
 ```
+
+## rpc
+Make a RPC server calculating fibonacci number
+
+```
+$ yarn restart
+$ yarn server
+$ yarn client 30
+```

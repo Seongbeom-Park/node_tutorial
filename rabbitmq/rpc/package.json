@@ -1,0 +1,15 @@
+{
+  "name": "rpc",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": ""
+  },
+  "scripts":{
+    "start": "sudo service rabbitmq-server start",
+    "stop": "sudo service rabbitmq-server stop",
+    "restart": "sudo service rabbitmq-server restart",
+    "server": "node rpc_server.js",
+    "client": "node rpc_client.js"
+  }
+}
